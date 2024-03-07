@@ -1,0 +1,20 @@
+{
+  "name": "dharosh",
+  "version": "1.0.0",
+  "description": "Dharosh is a versatile npm package designed to streamline JavaScript development by offering a comprehensive suite of utility functions and integrating various third-party libraries. With Dharosh, developers gain access to essential functionalities such as toast notifications, robust date handling, efficient data table management, and flexible number formatting.",
+  "main": "index.js",
+  "repository": "https://github.com/developer-sujon/dharosh",
+  "author": "shunnoit dharosh developer team",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "cogo-toast": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0"
+  }
+}
