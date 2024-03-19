@@ -3,4 +3,4 @@ import { _DRemoveEmpty } from "./src/helpers/array-object";
 
 const test = "this is test ";
 
-export default { toast, _DRemoveEmpty, test };
+export default { toast: toast, _DRemoveEmpty, test };
