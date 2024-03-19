@@ -1,5 +1,6 @@
 import * as toast from "./src/utils/toast";
+import { _DRemoveEmpty } from "./src/helpers/array-object";
 
-export const test = "this is test ";
+const test = "this is test ";
 
-export default toast;
+export { toast, _DRemoveEmpty, test };
