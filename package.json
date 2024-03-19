@@ -1,6 +1,6 @@
 {
   "name": "dharosh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Dharosh is a versatile npm package designed to streamline JavaScript development by offering a comprehensive suite of utility functions and integrating various third-party libraries. With Dharosh, developers gain access to essential functionalities such as toast notifications, robust date handling, efficient data table management, and flexible number formatting.",
   "main": "index.js",
   "repository": "https://github.com/developer-sujon/dharosh",
