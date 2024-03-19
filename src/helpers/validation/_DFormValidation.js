@@ -6,7 +6,7 @@ const validFileExtensions = {
   image: ["jpg", "png", "gif", "png", "jpeg", "svg", "webp"],
 };
 
-class FormValidation {
+class _DFormValidation {
   static isEmpty(value) {
     return value.length <= 0;
   }
@@ -37,4 +37,4 @@ class FormValidation {
   }
 }
 
-export default FormValidation;
+export default _DFormValidation;
