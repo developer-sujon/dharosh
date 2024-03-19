@@ -16,7 +16,7 @@ class _DRemoveEmpty {
     }
     return obj;
   }
-  static removeEmptyElements = (obj) => {
+  static removeEmptyElements(obj) {
     if (Array.isArray(obj)) {
       obj.forEach((element, index) =>
         obj.splice(index, 1, removeEmptyElements(element))
@@ -32,7 +32,7 @@ class _DRemoveEmpty {
         )
         .map(([k, v]) => [k, v === Object(v) ? removeEmptyElements(v) : v])
     );
-  };
+  }
 }
 
 export default _DRemoveEmpty;
