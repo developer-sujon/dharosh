@@ -1,5 +1,5 @@
 class _DRemoveEmpty {
-  static removeEmptyObjects() {
+  static removeEmptyObjects(obj) {
     const propNames = Object.getOwnPropertyNames(obj);
     for (let i = 0; i < propNames.length; i++) {
       const propName = propNames[i];
