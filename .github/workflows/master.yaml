@@ -8,7 +8,7 @@ on:
 jobs:
   push-to-registry:
     name: Push to Npm registry
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Master branch
         uses: actions/checkout@v4
