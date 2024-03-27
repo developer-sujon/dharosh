@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Master branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
+
       - name: Publish to npm
         run: |
-          echo "//registry.npmjs.org/:_auth=${NPM_USERNAME}:${NPM_PASSWORD}" > ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
           npm publish --access public
         env:
-          NPM_USERNAME: ${{ secrets.NPM_USERNAME }}
-          NPM_PASSWORD: ${{ secrets.NPM_PASSWORD }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
